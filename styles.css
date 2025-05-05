@@ -1,0 +1,111 @@
+body {
+    background: url(https://www.roc21.com/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-6.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: beige;
+    margin: 0;
+    padding: 0;
+}
+h1.titulo {
+    text-align: center;
+    border: dotted;
+    font-size: 2em;
+    padding: 10px;
+}
+img {
+    box-shadow: 4px 5px 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+h2.titulobienvenido {
+    color: beige;
+    text-align: center;
+    border: solid;
+    font-size: 1.8em;
+    padding: 10px;
+}
+p {
+    color: beige;
+    margin: 20px;
+}
+h2 {
+    color: beige;
+    text-align: center;
+    border: solid;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    background: #1f2833;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+li {
+    color: beige;
+    border-bottom: 1px solid #45a29e;
+    padding: 10px;
+}
+li:last-child {
+    border-bottom: none;
+}
+a {
+    display: block;
+    padding: 15px 20px;
+    color: #66fcf1;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+a:hover {
+    background: #45a29e;
+    color: #0b0c10;
+}
+@media (max-width: 768px) {
+    h1.titulo {
+        font-size: 1.8em;
+        padding: 8px;
+    }
+    h2.titulobienvenido {
+        font-size: 1.6em;
+    }
+    p {
+        font-size: 1em;
+        margin: 10px;
+    }
+    ul {
+        width: 100%;
+        margin: 10px;
+    }
+    li {
+        font-size: 1em;
+    }
+}
+@media (max-width: 480px) {
+    h1.titulo {
+        font-size: 1.6em;
+        padding: 6px;
+    }
+    h2.titulobienvenido {
+        font-size: 1.4em;
+    }
+    p {
+        font-size: 0.9em;
+        margin: 5px;
+    }
+    ul {
+        width: 100%;
+        margin: 5px;
+    }
+    li {
+        font-size: 0.9em;
+    }
+    a {
+        padding: 12px 15px;
+    }
+}
